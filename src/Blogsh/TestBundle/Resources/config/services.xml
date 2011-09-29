@@ -6,6 +6,7 @@
  
     <services>
         <service id="blogsh.test.my_custom_user_provider" class="Blogsh\TestBundle\Service\UserProvider" />
+        <service id="blogsh.test.my_custom_encoder" class="Blogsh\TestBundle\Service\CeasarCipherEncoder" />
     </services>
  
 </container>
